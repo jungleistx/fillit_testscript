@@ -1,0 +1,198 @@
+		fillit_retry				      |			fillit_v1
+
+AAAAB								AAAAB
+C...B								C...B
+C...B								C...B
+C...B								C...B
+C....								C....
+
+real	0m0.003s						real	0m0.003s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "1"						---Results for "1"
+
+---								---
+
+BAAD								BAAD
+BAAD								BAAD
+BBDD								BBDD
+CCCC								CCCC
+
+real	0m0.003s					      |	real	0m0.004s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "2"						---Results for "2"
+
+---								---
+
+.ABBBC.								.ABBBC.
+AADBCCC								AADBCCC
+.ADHH..								.ADHH..
+JJDDHHG								JJDDHHG
+EJJIFGG								EJJIFGG
+E.IIFG.								E.IIFG.
+EEI.FF.								EEI.FF.
+
+real	0m0.003s					      |	real	0m0.004s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "3"						---Results for "3"
+
+---								---
+
+AAA.								AAA.
+..AC								..AC
+B.CC								B.CC
+BBBC								BBBC
+
+real	0m0.004s					      |	real	0m0.006s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "4"						---Results for "4"
+
+---								---
+
+AAAABCCD.							AAAABCCD.
+.E.PBCCDD							.E.PBCCDD
+EEPPBLLD.							EEPPBLLD.
+HEPQBLFFF							HEPQBLFFF
+HSSQQL.FK							HSSQQL.FK
+HHSSQGKKK							HHSSQGKKK
+JJJMGGGII							JJJMGGGII
+JRRMNOOOI							JRRMNOOOI
+RRMMNNNOI							RRMMNNNOI
+
+real	0m10.317s					      |	real	0m10.415s
+user	0m10.240s					      |	user	0m10.235s
+sys	0m0.015s						sys	0m0.015s
+	---Results for "5"						---Results for "5"
+
+---								---
+
+error								error
+
+real	0m0.003s						real	0m0.003s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "e_1"						---Results for "e_1"
+
+---								---
+
+error								error
+
+real	0m0.003s						real	0m0.003s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "e_2"						---Results for "e_2"
+
+---								---
+
+error								error
+
+real	0m0.003s						real	0m0.003s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "e_3"						---Results for "e_3"
+
+---								---
+
+error								error
+
+real	0m0.003s					      |	real	0m0.004s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s					      |	sys	0m0.002s
+	---Results for "e_4"						---Results for "e_4"
+
+---								---
+
+error								error
+
+real	0m0.003s					      |	real	0m0.002s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "e_5"						---Results for "e_5"
+
+---								---
+
+error								error
+
+real	0m0.003s						real	0m0.003s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "e_6"						---Results for "e_6"
+
+---								---
+
+error								error
+
+real	0m0.003s						real	0m0.003s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "e_7"						---Results for "e_7"
+
+---								---
+
+error								error
+
+real	0m0.003s						real	0m0.003s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "e_8"						---Results for "e_8"
+
+---								---
+
+error								error
+
+real	0m0.003s						real	0m0.003s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "e_9"						---Results for "e_9"
+
+---								---
+
+error								error
+
+real	0m0.004s					      |	real	0m0.003s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "e_10"						---Results for "e_10"
+
+---								---
+
+error								error
+
+real	0m0.003s						real	0m0.003s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "e_11"						---Results for "e_11"
+
+---								---
+
+error							      |	AAAAB
+							      >	C...B
+							      >	C...B
+							      >	C...B
+							      >	C....
+
+real	0m0.003s						real	0m0.003s
+user	0m0.001s						user	0m0.001s
+sys	0m0.001s						sys	0m0.001s
+	---Results for "e_12"						---Results for "e_12"
+
+---								---
+
+ABBBBCC.DD							ABBBBCC.DD
+AEFF.CCDDG							AEFF.CCDDG
+AEEFFHJJGG							AEEFFHJJGG
+A.ELVH.JGQ							A.ELVH.JGQ
+IIILVHHJQQ							IIILVHHJQQ
+IRLLVVKTTQ							IRLLVVKTTQ
+RRRUKKKSTT							RRRUKKKSTT
+NNUUOOOSSX							NNUUOOOSSX
+NMUPPPOSXX							NMUPPPOSXX
+NMMMPWWWWX							NMMMPWWWWX
+
+real	0m26.101s					      |	real	0m25.804s
+user	0m25.725s					      |	user	0m25.684s
+sys	0m0.043s					      |	sys	0m0.017s
+	---Results for max.txt						---Results for max.txt

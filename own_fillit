@@ -1,0 +1,194 @@
+		fillit_retry
+
+AAAAB
+C...B
+C...B
+C...B
+C....
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "1"
+
+---
+
+BAAD
+BAAD
+BBDD
+CCCC
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "2"
+
+---
+
+.ABBBC.
+AADBCCC
+.ADHH..
+JJDDHHG
+EJJIFGG
+E.IIFG.
+EEI.FF.
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "3"
+
+---
+
+AAA.
+..AC
+B.CC
+BBBC
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "4"
+
+---
+
+AAAABCCD.
+.E.PBCCDD
+EEPPBLLD.
+HEPQBLFFF
+HSSQQL.FK
+HHSSQGKKK
+JJJMGGGII
+JRRMNOOOI
+RRMMNNNOI
+
+real	0m10.317s
+user	0m10.240s
+sys	0m0.015s
+	---Results for "5"
+
+---
+
+error
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_1"
+
+---
+
+error
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_2"
+
+---
+
+error
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_3"
+
+---
+
+error
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_4"
+
+---
+
+error
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_5"
+
+---
+
+error
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_6"
+
+---
+
+error
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_7"
+
+---
+
+error
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_8"
+
+---
+
+error
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_9"
+
+---
+
+error
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_10"
+
+---
+
+error
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_11"
+
+---
+
+error
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+	---Results for "e_12"
+
+---
+
+ABBBBCC.DD
+AEFF.CCDDG
+AEEFFHJJGG
+A.ELVH.JGQ
+IIILVHHJQQ
+IRLLVVKTTQ
+RRRUKKKSTT
+NNUUOOOSSX
+NMUPPPOSXX
+NMMMPWWWWX
+
+real	0m26.101s
+user	0m25.725s
+sys	0m0.043s
+	---Results for max.txt

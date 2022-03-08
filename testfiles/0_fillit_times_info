@@ -1,0 +1,24 @@
+
+file        time ./fillit   size
+1           0.003           5
+2           0.003           4
+3           0.003           7
+4           0.003           4
+5           10.247          9
+6
+max.txt     26.362          10
+
+ABBBBCC.DD
+
+errors
+	1	wrong char
+	2	wrong len of piece (!20)
+	3	invalid shape
+	4	empty piece
+	5	empty file
+	6	too much space between pieces
+	7	no spaces between pieces
+	8	wrong len of line (!5)
+	9	too much pieces (27)
+	10 	extra trailing newline
+    11  joker, extra char trailing
