@@ -1,10 +1,13 @@
 ##! /bin/bash
 
-#BASE="/Users/rvuorenl/hive/evals"
-BASE="/Users/rvuorenl/hive/repos"
-TEST="/Users/rvuorenl/hive/tests/fillit"
-TESTFILE="/Users/rvuorenl/hive/tests/fillit/testfiles"
-RES="/Users/rvuorenl/hive/tests/fillit/results"
+# modify, path to eval folder
+BASE="/Users/login/evalfolder"
+
+# modify, path to this folder
+TEST="/Users/login/fillit_eval"
+
+TESTFILE="${TEST}/testfiles"
+RES="${TEST}/results"
 
 # check for argument #
 if (($# != 1))
