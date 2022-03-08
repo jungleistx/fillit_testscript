@@ -50,7 +50,6 @@ echo "_|___|___|___|___|___|___|___|___|___|___|___|___|___|___|_${NC}\n"
 printf "\nCleaning up results folder...\n\n"
 rm -rf results/* > /dev/null
 
-# write_to_file $1(repo/name)
 write_to_files() {
 
     declare -i x=1 y
@@ -58,7 +57,7 @@ write_to_files() {
     while [ $x -le 5 ]
     do
         printf "${YE}Writing output of '$x' to file...${NC}"
-        { time ../../../repos/$1/./fillit ../testfiles/$x; } &> result_$x
+        { time $1/./fillit ../testfiles/$x; } &> result_$x
         printf "\t---Results for \"$x\"\n\n---\n\n" >> result_$x
         printf "\t\t${GR}DONE!${NC}\n"
         ((x++))
@@ -68,19 +67,18 @@ write_to_files() {
     while [ $x -le 13 ]
     do
         printf "${YE}Writing output of 'e_$x' to file...${NC}"
-        { time ../../../repos/$1/./fillit ../testfiles/e_$x; } &> result_$y
+        { time $1/./fillit ../testfiles/e_$x; } &> result_$y
         printf "\t---Results for \"e_$x\"\n\n---\n\n" >> result_$y
         printf "\t\t${GR}DONE!${NC}\n"
         ((x++))
         ((y++))
     done
     printf "${YE}Writing output of 'max.txt' to file...${NC}"
-    { time ../../../repos/$1/./fillit ../testfiles/max.txt; } &> result_max.txt
+    { time $1/./fillit ../testfiles/max.txt; } &> result_max.txt
     printf "\t---Results for max.txt\n" >> result_max.txt
     printf "\t\t${GR}DONE!${NC}\n"
 }
 
-# write_to_tmp $1 (repo/name)
 write_to_tmp() {
     declare -i y=1
     # touch fillit_$1
@@ -107,7 +105,7 @@ make all > /dev/null
 #make -C fclean > /dev/null && make -C > /dev/null
 
 cd $RES
-write_to_files $1
+write_to_files $REPO
 write_to_tmp $1
 
 # cleaning up the mess
