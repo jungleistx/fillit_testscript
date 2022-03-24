@@ -7,7 +7,7 @@ Usage:
 
 (1) add path to eval_folder
 
-    variable BASE in line 5 of 'fillit.sh',
+    variable BASE in line 5 of 'fillit.sh'
     
     path to eval folder without trailing '/'
     
@@ -46,7 +46,7 @@ example:
 
 Error_cases
 
-(1) if makefile automakes libft
+(1) might be issue with libft make
 
     uncomment lines 98 & 103 of "fillit.sh"
     
