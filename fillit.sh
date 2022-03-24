@@ -1,11 +1,11 @@
 ##! /bin/bash
 
-# modify, path to eval folder
-BASE="/Users/login/evalfolder"
+# MODIFY: path to eval folder without trailing '/'
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+BASE="/Users/login_name/folder_containing_cloned_folder"
+# * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
-# modify, path to this folder
-TEST="/Users/login/fillit_eval"
-
+TEST=$(pwd)
 TESTFILE="${TEST}/testfiles"
 RES="${TEST}/results"
 
@@ -95,12 +95,12 @@ write_to_tmp() {
 
 # check if libft makefile exists
 cd $REPO
+#<<com
 if [ -f $REPO/libft/Makefile ]
 then
-    #printf "Makefile in libft:\n"
     make -C libft/ fclean > /dev/null && make -C libft/ > /dev/null
 fi
-#printf "Makefile in fillit:\n"
+#com
 make all > /dev/null
 #make -C fclean > /dev/null && make -C > /dev/null
 
@@ -108,25 +108,19 @@ cd $RES
 write_to_files $REPO
 write_to_tmp $1
 
-# cleaning up the mess
 cd $REPO
 if [ -f $REPO/libft/Makefile ]
 then
-    #printf "Makefile in libft:\n"
     make -C libft/ fclean > /dev/null
 fi
-#printf "Makefile in fillit:\n"
 make fclean > /dev/null
 
 cd $REPO
 printf "\n\t\t\t${YE}---- NORM ----\n${NC}"
 norminette
+
 cd $TEST
-diff -y own_fillit results/fillit_$1 > results/fillit_$1_comparison
+diff -y fillit_rvuorenl results/fillit_$1 > results/fillit_$1_comparison
 printf "'Diff -y' written to 'results/fillit_$1_comparison\n"
 
-printf "\n\t\t\t${YE}---- LEAKS ----\n${NC}"
-printf "\n\t\t${BL}TESTING REMINDER: add < system (\"leaks fillit \"); > to 'main.c'${NC}\n\n"
-
-# if wanted, could add this to makefile to check leaks + some easy && few error test
-# -g -fsanitize=address
+printf "\n\t\t${YE}TESTING REMINDER: Check leaks!${NC}\n\n"
