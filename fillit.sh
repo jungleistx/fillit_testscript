@@ -75,12 +75,12 @@ write_to_files() {
     done
     printf "${YE}Writing output of 'pdf_1' to file...${NC}"
     { time $1/./fillit ../testfiles/pdf_1; } &> result_pdf_1.txt
-    printf "\t---Results for pdf_1\n" >> result_pdf_1
+    printf "\t---Results for pdf_1\n\n---\n\n" >> result_pdf_1.txt
     printf "\t\t${GR}DONE!${NC}\n"
     
     printf "${YE}Writing output of 'pdf_2' to file...${NC}"
     { time $1/./fillit ../testfiles/pdf_2; } &> result_pdf_2.txt
-    printf "\t---Results for pdf_2\n" >> result_pdf_2
+    printf "\t---Results for pdf_2\n\n---\n\n" >> result_pdf_2.txt
     printf "\t\t${GR}DONE!${NC}\n"
     
     printf "${YE}Writing output of 'max.txt' to file...${NC}"
