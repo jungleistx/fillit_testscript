@@ -6,7 +6,7 @@ C...B
 C...B
 C....
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "1"
@@ -18,7 +18,7 @@ BAAD
 BBDD
 CCCC
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "2"
@@ -33,7 +33,7 @@ EJJIFGG
 E.IIFG.
 EEI.FF.
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "3"
@@ -45,7 +45,7 @@ AAA.
 B.CC
 BBBC
 
-real	0m0.004s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "4"
@@ -62,16 +62,16 @@ JJJMGGGII
 JRRMNOOOI
 RRMMNNNOI
 
-real	0m10.317s
-user	0m10.240s
-sys	0m0.015s
+real	0m9.885s
+user	0m9.881s
+sys	0m0.003s
 	---Results for "5"
 
 ---
 
 error
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_1"
@@ -80,7 +80,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_2"
@@ -98,7 +98,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_4"
@@ -116,7 +116,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_6"
@@ -125,7 +125,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_7"
@@ -134,7 +134,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_8"
@@ -143,7 +143,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_9"
@@ -152,7 +152,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.004s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_10"
@@ -177,6 +177,30 @@ sys	0m0.001s
 
 ---
 
+AA
+AA
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+	---Results for pdf_1
+
+---
+
+ABBBB.
+ACCC..
+AGGCDD
+A.GDD.
+EEGFF.
+EE..FF
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+	---Results for pdf_2
+
+---
+
 ABBBBCC.DD
 AEFF.CCDDG
 AEEFFHJJGG
@@ -188,7 +212,7 @@ NNUUOOOSSX
 NMUPPPOSXX
 NMMMPWWWWX
 
-real	0m26.101s
-user	0m25.725s
-sys	0m0.043s
+real	0m24.731s
+user	0m24.724s
+sys	0m0.004s
 	---Results for max.txt
