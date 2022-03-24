@@ -73,6 +73,16 @@ write_to_files() {
         ((x++))
         ((y++))
     done
+    printf "${YE}Writing output of 'pdf_1' to file...${NC}"
+    { time $1/./fillit ../testfiles/pdf_1; } &> result_pdf_1.txt
+    printf "\t---Results for pdf_1\n" >> result_pdf_1
+    printf "\t\t${GR}DONE!${NC}\n"
+    
+    printf "${YE}Writing output of 'pdf_2' to file...${NC}"
+    { time $1/./fillit ../testfiles/pdf_2; } &> result_pdf_2.txt
+    printf "\t---Results for pdf_2\n" >> result_pdf_2
+    printf "\t\t${GR}DONE!${NC}\n"
+    
     printf "${YE}Writing output of 'max.txt' to file...${NC}"
     { time $1/./fillit ../testfiles/max.txt; } &> result_max.txt
     printf "\t---Results for max.txt\n" >> result_max.txt
@@ -81,7 +91,6 @@ write_to_files() {
 
 write_to_tmp() {
     declare -i y=1
-    # touch fillit_$1
     printf "\t\t$1\n\n" > fillit_$1
 
     while [ $y -le 17 ]
@@ -89,8 +98,9 @@ write_to_tmp() {
         cat result_$y >> fillit_$1
         ((y++))
     done
+    cat result_pdf_1 >> fillit_$1
+    cat result_pdf_2 >> fillit_$1
     cat result_max.txt >> fillit_$1
-    # find . ! -name "fillit_$1" -type f -exec rm -f {} +
 }
 
 # check if libft makefile exists
