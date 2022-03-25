@@ -20,8 +20,6 @@ example:
 
     ./fillit <repository_name>
     
-    (gives this output when ./fillit without arguments)
-    
 example:
 
     ./fillit rvuorenl_fillit
