@@ -5,9 +5,9 @@ Made by rvuorenl to test fillit
 
 Usage:
 
-(1) add path to eval_folder
+(1) add path to eval_folder in fillit.sh
 
-    variable BASE in line 5 of 'fillit.sh'
+    variable BASE in line 5:
     
     path to eval folder without trailing '/'
     
@@ -16,11 +16,11 @@ example:
     "/Users/rvuorenl/evals"
     
 
-(2) run fillit.sh
+(2) run fillit.sh with repository name in "evals_folder"
 
     ./fillit <repository_name>
     
-    (gives this output when ./fillit)
+    (gives this output when ./fillit without arguments)
     
 example:
 
