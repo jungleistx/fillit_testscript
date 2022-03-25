@@ -51,8 +51,11 @@ rm -rf results/* > /dev/null
 
 write_to_files() {
 
-    ./fillit > result_usage
+    printf "${YE}Writing output of 'usage' to file...${NC}"
+    $1/./fillit > result_usage
     printf "\t---Results for \"usage\"\n\n---\n\n" >> result_usage
+    printf "\t\t${GR}DONE!${NC}\n"
+    
     declare -i x=1 y
     while [ $x -le 5 ]
     do
