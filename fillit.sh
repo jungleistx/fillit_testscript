@@ -1,8 +1,8 @@
 ##! /bin/bash
 
-# MODIFY: path to eval folder without trailing '/'
+# CHANGE PATH
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-BASE="/Users/login_name/folder_containing_clones"
+BASE="/Users/login_name/folder_containing_repositories"
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
 TEST=$(pwd)
