@@ -136,13 +136,13 @@ printf "\n\t\t\t${YE}---- NORM ----\n${NC}"
 norminette
 
 cd $TEST
-printf "\n---\n\nWriting diff -y with rvuorenl-jhaukil-fillit...\n"
+printf "\n---\n\nComparing with rvuorenl-jhaukil-fillit...\n"
 diff -y rvuorenl_jhaukil results/fillit_$1 > results/fillit_$1_comparison
 
 open results/fillit_$1_comparison
 open results/fillit_$1
 
 printf "\nOpened \"results/fillit_$1\"\n"
-printf "\nOpened comparison with rvuorenl_jhaukil_fillit saved in \"results/fillit_$1_comparison\"\n"
+printf "\nOpened \"results/fillit_$1_comparison\"\n"
 
 printf "\n\t\t${YE}TESTING REMINDER: Check leaks!${NC}\n\n"
