@@ -1,4 +1,9 @@
-		rvuorenl_jhaukil
+		fillit_retry
+
+usage: ./fillit [file_name]
+	---Results for "usage"
+
+---
 
 AAAAB
 C...B
@@ -6,7 +11,7 @@ C...B
 C...B
 C....
 
-real	0m0.002s
+real	0m0.003s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "1"
@@ -80,7 +85,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.002s
+real	0m0.003s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_2"
@@ -89,7 +94,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_3"
@@ -98,7 +103,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.002s
+real	0m0.003s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_4"
@@ -152,7 +157,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.002s
+real	0m0.003s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_10"
@@ -161,7 +166,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_11"
@@ -170,7 +175,7 @@ sys	0m0.001s
 
 error
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.001s
 sys	0m0.001s
 	---Results for "e_12"
@@ -194,7 +199,7 @@ A.GDD.
 EEGFF.
 EE..FF
 
-real	0m0.002s
+real	0m0.003s
 user	0m0.001s
 sys	0m0.001s
 	---Results for pdf_2
