@@ -9,7 +9,7 @@ Usage:
 
     path to directory containing repository tested
     
-    remove trailing '/'
+    without trailing '/'
     
 example:
 
