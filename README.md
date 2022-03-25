@@ -33,7 +33,7 @@ example:
     
     "/results" contains all individual tests
     
-    "/results/fillit_<repo_name>" contains all combined
+    "/results/fillit_<repo_name>" contains all combined (including pdf time-tests)
     
     "/results/fillit_<repo_name>_comparison" is compared with my fillit
     
