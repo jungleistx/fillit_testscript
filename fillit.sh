@@ -142,6 +142,7 @@ diff -y rvuorenl_jhaukil results/fillit_$1 > results/fillit_$1_comparison
 open results/fillit_$1_comparison
 open results/fillit_$1
 
-printf "\nOpened results and comparison with rvuorenl_jhaukil_fillit\n"
+printf "\nOpened \"results/fillit_$1\"\n"
+printf "\nOpened comparison with rvuorenl_jhaukil_fillit saved in \"results/fillit_$1_comparison\"\n"
 
 printf "\n\t\t${YE}TESTING REMINDER: Check leaks!${NC}\n\n"
