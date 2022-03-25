@@ -51,8 +51,9 @@ rm -rf results/* > /dev/null
 
 write_to_files() {
 
+    ./fillit > result_usage
+    printf "\t---Results for \"usage\"\n\n---\n\n" >> result_usage
     declare -i x=1 y
-
     while [ $x -le 5 ]
     do
         printf "${YE}Writing output of '$x' to file...${NC}"
@@ -89,9 +90,11 @@ write_to_files() {
 }
 
 write_to_tmp() {
-    declare -i y=1
-    printf "\t\t$1\n\n" > fillit_$1
 
+    printf "\t\t$1\n\n" > fillit_$1
+    cat result_usage >> fillit_$1
+    
+    declare -i y=1
     while [ $y -le 17 ]
     do
         cat result_$y >> fillit_$1
