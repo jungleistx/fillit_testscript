@@ -31,9 +31,9 @@ example:
 
     because of time command used, tested filename is under the time + fillit output
     
-    files starting with "e_" are error files
-    
     "/results" contains all individual tests
+    
+    results 1-5 are valid, results 6-18 are errors. pdftests, usage and max.txt named separately.
     
     "/results/fillit_<repo_name>" contains all combined (including pdf time-tests)
     
