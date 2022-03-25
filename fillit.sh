@@ -2,14 +2,14 @@
 
 # MODIFY: path to eval folder without trailing '/'
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-BASE="/Users/login_name/folder_containing_cloned_folder"
+BASE="/Users/login_name/folder_containing_clones"
 # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
 TEST=$(pwd)
 TESTFILE="${TEST}/testfiles"
 RES="${TEST}/results"
 
-# check for argument #
+# check for number of arguments
 if (($# != 1))
 then
     printf "usage: $0 <directory in '$BASE'>\n"
@@ -24,7 +24,6 @@ then
 fi
 
 REPO="$BASE/$1"
-EXE="./fillit"
 
 # colors
 YE='\033[4;33m'
