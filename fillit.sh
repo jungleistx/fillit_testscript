@@ -113,7 +113,7 @@ fi
 make all > /dev/null
 #make -C fclean > /dev/null && make -C > /dev/null
 
-printf "\n\t\t\t${YE}---- TESTS ----\n${NC}"
+printf "\n\t\t\t${YE}---- TESTS ----\n\n${NC}"
 cd $RES
 write_to_files $REPO
 write_to_tmp $1
