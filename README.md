@@ -50,5 +50,5 @@ Error_cases
 
 (1) issue with libft make
 
-    uncomment lines 107 & 112 of "fillit.sh"
+    uncomment lines 109 & 115 of "fillit.sh"
     
