@@ -5,24 +5,26 @@ Made by rvuorenl to test fillit
 
 Usage:
 
-(1) add path to eval_folder in fillit.sh
+(1) modify fillit.sh line 5 path
 
-    variable BASE in line 5:
+    path to directory containing repository tested
     
-    path to eval folder without trailing '/'
+    remove trailing '/'
     
 example:
 
-    "/Users/rvuorenl/evals"
+    "/Users/login_name/evals"
     
 
-(2) run fillit.sh with repository name in "evals_folder"
+(2) run fillit.sh with repository name
 
     ./fillit <repository_name>
     
 example:
 
-    ./fillit rvuorenl_fillit
+    ./fillit user1_fillit
+    
+    (full path to repository: "/Users/login_name/evals/user1_fillit")
     
 
 (3) check results (norm in terminal)
@@ -35,12 +37,12 @@ example:
     
     "/results/fillit_<repo_name>" contains all combined (including pdf time-tests)
     
-    "/results/fillit_<repo_name>_comparison" is compared with my fillit
+    "/results/fillit_<repo_name>_comparison" is compared with my teams fillit
     
 
-(4) can be rerun with different folder, auto cleans results folder
+(4) rerun with different fillit, auto cleans results folder
 
-    ./fillit atenhune_fillit
+    ./fillit user2_fillit
     
 
 
@@ -48,5 +50,5 @@ Error_cases
 
 (1) issue with libft make
 
-    uncomment lines 109 & 115 of "fillit.sh"
+    uncomment lines 113 & 118 of "fillit.sh"
     
