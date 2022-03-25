@@ -97,8 +97,8 @@ write_to_tmp() {
         cat result_$y >> fillit_$1
         ((y++))
     done
-    cat result_pdf_1 >> fillit_$1
-    cat result_pdf_2 >> fillit_$1
+    cat result_pdf_1.txt >> fillit_$1
+    cat result_pdf_2.txt >> fillit_$1
     cat result_max.txt >> fillit_$1
 }
 
