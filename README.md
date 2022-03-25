@@ -5,9 +5,9 @@ Made by rvuorenl to test fillit
 
 Usage:
 
-(1) modify fillit.sh line 5 path
+(1) modify fillit.sh line 5
 
-    path to directory containing repository tested
+    add path to directory containing repository tested,
     
     without trailing '/'
     
