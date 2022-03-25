@@ -46,7 +46,7 @@ example:
 
 Error_cases
 
-(1) might be issue with libft make
+(1) issue with libft make
 
-    uncomment lines 98 & 103 of "fillit.sh"
+    uncomment lines 107 & 112 of "fillit.sh"
     
